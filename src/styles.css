@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+
+  div {
+    text-align: center;
+  }
+  
+  /* Component A container */
+  h1 {
+    color: #4caf50;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  /* Component B styling */
+  h2 {
+    color: #ff9800;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 50%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  /* Component C styling */
+  p {
+    font-size: 1.2rem;
+    color: #3f51b5;
+    margin-top: 20px;
+  }
+  
+  /* Card-like components */
+  div > div {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+  }
+  
